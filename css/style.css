@@ -40,7 +40,7 @@ main::after {
 }
 @font-face {
   font-family: "Somarsans Medium";
-  src: url(./fonts/somarsans/TTF/Standard/SomarSans-Medium.ttf)
+  src: url(/fonts/somarsans/TTF/Standard/SomarSans-Medium.ttf)
     format("truetype");
   font-weight: normal;
 }
