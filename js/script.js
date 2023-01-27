@@ -2,23 +2,23 @@
 let section = document.querySelectorAll("section");
 let menu = document.querySelectorAll("header nav a");
 
-window.onscroll = () => {
-  section.forEach((i) => {
-    let top = window.scrollY;
-    let offset = i.offsetTop - 150;
-    let height = i.offsetHeight;
-    let classs = i.getAttribute("class");
+// window.onscroll = () => {
+//   section.forEach((i) => {
+//     let top = window.scrollY;
+//     let offset = i.offsetTop - 150;
+//     let height = i.offsetHeight;
+//     let classs = i.getAttribute("class");
 
-    if (top >= offset && top < offset + height) {
-      menu.forEach((link) => {
-        link.classList.remove("active1");
-        // document
-        //   .querySelector("header nav ul a[href*=" + classs + "]")
-        //   .classList.add("active");
-      });
-    }
-  });
-};
+// if (top >= offset && top < offset + height) {
+//   menu.forEach((link) => {
+//     link.classList.remove("active1");
+// document
+//   .querySelector("header nav ul a[href*=" + classs + "]")
+//   .classList.add("active");
+//       });
+//     }
+//   });
+// };
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
