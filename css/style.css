@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Somarsans Medium";
+  src: url(/fonts/TTF/Standard/SomarSans-Medium.ttf) format("truetype");
+  font-weight: normal;
+}
 body {
   font-family: "Somarsans Medium", sans-serif;
   letter-spacing: -0.5px;
@@ -36,11 +41,6 @@ main::after {
 @font-face {
   font-family: "Somarsans Regular";
   src: url(/fonts/TTF/Standard/Somarsans-Regular.ttf) format("truetype");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Somarsans Medium";
-  src: url(/fonts/TTF/Standard/SomarSans-Medium.ttf) format("truetype");
   font-weight: normal;
 }
 
