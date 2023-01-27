@@ -30,18 +30,17 @@ main::after {
 /* Importing custom fonts */
 @font-face {
   font-family: "Somarsans Bold";
-  src: url(fonts/somarsans/TTF/Standard/SomarSans-Bold.ttf) format("truetype");
+  src: url(/fonts/TTF/Standard/SomarSans-Bold.ttf) format("truetype");
   font-weight: bold;
 }
 @font-face {
   font-family: "Somarsans Regular";
-  src: url(fonts/somarsans/TTF/Standard/Somarsans-Regular.ttf)
-    format("truetype");
+  src: url(/fonts/TTF/Standard/Somarsans-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Somarsans Medium";
-  src: url(fonts/somarsans/TTF/Standard/SomarSans-Medium.ttf) format("truetype");
+  src: url(/fonts/TTF/Standard/SomarSans-Medium.ttf) format("truetype");
   font-weight: normal;
 }
 
