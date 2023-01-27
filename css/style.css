@@ -13,6 +13,7 @@ body {
   overflow-x: hidden;
 }
 html {
+  font-family: "Somarsans Medium", sans-serif;
   height: 100%;
 }
 /* wrapper around all content */
